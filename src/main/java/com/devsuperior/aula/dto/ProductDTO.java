@@ -19,6 +19,8 @@ public class ProductDTO {
 	private String name;
 	private Double price;
 	
+	
+	
 	private List<CategoryDTO> categories = new ArrayList<>();
 
 	public ProductDTO(Long id, String name, Double price) {
